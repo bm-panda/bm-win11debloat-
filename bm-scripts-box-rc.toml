@@ -1,0 +1,25 @@
+[bmscriptsbox]
+
+[bmscriptsbox.info]
+id = "3d0a63fc-df6b-45c3-8641-7b948eaf6041"
+name = "Win11Debloat"
+desc = "Win11Debloat 是Windows 系统精简优化工具 | 图形化勾选一键卸载预装应用、禁用遥测与广告、关闭 Copilot/Recall 等 AI 功能、还原 Win10 右键菜单、定制任务栏与开始菜单、清理资源管理器，支持注册表备份还原与配置导入导出 | 让 Win11 更快更干净"
+version = "1.0.2"
+icon = "./imgs/windows.png"
+
+[bmscriptsbox.runtime]
+language = "bat"
+language_version = ">=0.0.0"
+entry = "run.bat"
+terminal = "never"
+
+[bmscriptsbox.triggers.context_menu]
+enabled = true
+targets = ["background"]
+
+[bmscriptsbox.triggers.shortcut]
+enabled = true                    
+input_type = ""              
+
+
+
